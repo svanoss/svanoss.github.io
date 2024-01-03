@@ -1,0 +1,49 @@
+---
+title: "Data Cleaning in Excel"
+author: "Sarah Van Oss"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Collecting Data from Ceramic Artifacts
+
+Objective: Clean raw data collected during ceramic analysis to prepare it for analysis and entry into a relational database. Analyzing ceramic artifact distributions and typology differences can give us information on socio-economic status, time period, and economic exchange.
+
+Step 1: Raw Data that includes artifact typologies, counts, and weights by context.
+
+![](images/Step1.jpg)
+
+Step 2: Removing blank rows and barriers.
+
+![](images/Step2.jpg)
+
+Step 3: Reformat header to take up less space on the page and make header text horizontal.
+
+![](images/Step3.jpg)
+
+Step 4: Fill all blanks with 0's.
+
+![](images/Step4.jpg)
+
+Step 5: Duplicate contextual information for both counts and weights values.
+
+![](images/Step5.jpg)
+
+Step 6: Format contextual information and create context key to coordinate with other database files (column A).
+
+![](images/Step6.jpg)
+
+Step 7: Separate the counts and weights for ceramic types to facilitate future statistical analysis by using IFEVEN command to separate out odd (weights) and even (count) rows.
+
+![](images/Step7.jpg)
+
+Step 8: Formatting final weights of ceramic artifacts and context information.
+
+![](images/Step8.jpg)
+
+Step 9: Formatting final counts of ceramic artifacts and context information.
+
+![](images/Step9.jpg)
